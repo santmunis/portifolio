@@ -27,6 +27,9 @@ export const Main = Styled.div`
       height:100vh;
       display:flex;
       align-items:center;
+      @media(max-width: 800px) {
+            height:auto;
+        };
         @media(max-width: 576px) {
             height:100vh;
             flex-direction:column-reverse;

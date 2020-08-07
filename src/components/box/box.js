@@ -10,9 +10,11 @@ const Box = Styled.div`
     justify-content:center;
 
     .img-section{
+        @media(max-width: 800px) {
+            height:35vh; 
+        }
         @media(max-width: 576px) {
             width:90vw; 
-            
         }
     }
     #donwload{
@@ -30,11 +32,8 @@ const Box = Styled.div`
         }
     }
     @media(max-width: 800px) {
-        ${props => (!props.size ? `width: 50%;` : `width:100%;height:62%;`)}
-      }
-    @media(max-width: 576px) {
         ${props => (!props.size ? `width: 50%;` : `width:100%;`)}
-    }
+      }
 `;
 
 export const Content = Styled.div`

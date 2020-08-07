@@ -26,7 +26,7 @@ export default createGlobalStyle`
       display:flex;
       align-items:center;
       @media(max-width: 800px) {
-        height:60vh;
+        height:40vh;
       }
       @media(max-width: 576px) {
         height:auto;

@@ -45,7 +45,7 @@ export const Main = Styled.section`
         height:80%;
       }
       @media(max-width: 800px) {
-        height:60vh;
+        height:40vh;
         #my-picture{
           height:auto;
         }
