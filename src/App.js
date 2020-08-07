@@ -1,25 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import GlobalStyle from './styles/global';
+import Home from './sections/home/home';
+import AboutMe from './sections/aboutMe/AboutMe';
+import Skill from './sections/skill/skill';
+import SignalJr from './sections/xp/signalJr';
+import NuesGames from './sections/xp/nuesGames';
+import SocialMedia from './sections/socialMedia/socialMedia';
+import Footer from './sections/footer/footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <Home />
+      <AboutMe />
+      <Skill />
+      <SignalJr />
+      <NuesGames />
+      <SocialMedia />
+      <Footer />
+    </>
   );
 }
 
