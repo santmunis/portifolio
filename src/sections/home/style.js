@@ -54,5 +54,9 @@ export const Main = Styled.section`
         height:100vh;
         flex-direction:column;
         overflow:hidden;
+        #my-picture{
+        height:50%;
+        width:105vw;
+      }
       };
 `;
