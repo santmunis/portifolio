@@ -30,7 +30,7 @@ const Box = Styled.div`
         }
     }
     @media(max-width: 800px) {
-        ${props => (!props.size ? `width: 50%;` : `width:100%;height:62%;`)}
+        ${props => (!props.size ? `width: 50%;` : `width:100%;`)}
       }
 `;
 
