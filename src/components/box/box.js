@@ -30,8 +30,11 @@ const Box = Styled.div`
         }
     }
     @media(max-width: 800px) {
-        ${props => (!props.size ? `width: 50%;` : `width:100%;`)}
+        ${props => (!props.size ? `width: 50%;` : `width:100%;height:62%;`)}
       }
+    @media(max-width: 576px) {
+        ${props => (!props.size ? `width: 50%;` : `width:100%;height:30vh;`)}
+    }
 `;
 
 export const Content = Styled.div`
